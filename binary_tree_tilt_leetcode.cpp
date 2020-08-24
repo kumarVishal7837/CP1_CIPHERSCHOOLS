@@ -59,5 +59,6 @@ int main()
 	node* root=NULL;
 	root=createBT();
 	PostOrder(root);
+	Tilt(root);
 	cout<<endl<<s<<endl;
 }
